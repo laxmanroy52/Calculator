@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+<div id="calculator">
+  <div id="theme"><img class="light" src="/light.png" alt=""></div>
+  <div id="result"></div>
+  <input type="text" value="" disabled>
+  <table>
+    <thead>
+      <tr>
+      <td style="background-color: #C4EED0;color: #082812;" onclick="clickEvent('AC')">AC</td>
+      <td class="bar" onclick="clickEvent('()')">( )</td>
+      <td class="bar" onclick="clickEvent('%')">%</td>
+      <td class="bar" onclick="clickEvent('/')">÷</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td onclick="clickEvent('7')">7</td>
+        <td onclick="clickEvent('8')">8</td>
+        <td onclick="clickEvent('9')">9</td>
+        <td class="bar" onclick="clickEvent('*')">×</td>
+      </tr>
+      <tr>
+        <td onclick="clickEvent('4')">4</td>
+        <td onclick="clickEvent('5')">5</td>
+        <td onclick="clickEvent('6')">6</td>
+        <td class="bar" onclick="clickEvent('-')">-</td>
+      </tr>
+      <tr>
+        <td onclick="clickEvent('1')">1</td>
+        <td onclick="clickEvent('2')">2</td>
+        <td onclick="clickEvent('3')">3</td>
+        <td class="bar" onclick="clickEvent('+')">+</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td onclick="clickEvent('0')">0</td>
+        <td onclick="clickEvent('.')">.</td>
+        <td onclick="clickEvent('DEL')">DEL</td>
+        <td style="background-color: #D3E3FD; color: #041E49;" onclick="clickEvent('=')">=</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+</body>
+
+</html>
