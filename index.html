@@ -10,7 +10,7 @@
 
 <body>
 <div id="calculator">
-  <div id="theme"><img class="light" src="/light.png" alt=""></div>
+  <div id="theme"><img class="light" src="light.png" alt=""></div>
   <div id="result"></div>
   <input type="text" value="" disabled>
   <table>
@@ -66,7 +66,7 @@
   let changeTheme = true;
 function change() {
   if (changeTheme) {
-  theme.src = '/dark.png';
+  theme.src = 'dark.png';
   changeTheme = false;
   input.classList.add('input');
   for (let count = 0; count < td.length; count++) {
@@ -81,7 +81,7 @@ function change() {
    body.style.backgroundColor = 'black';
    result.style.color = 'white';
   } else {
-   theme.src = '/light.png';
+   theme.src = 'light.png';
    changeTheme = true;
    input.classList.remove('input');
    for (let count = 0; count < td.length; count++) {
