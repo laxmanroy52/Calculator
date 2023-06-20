@@ -14,7 +14,7 @@ The Calculator repository contains a simple and powerful calculator application 
 
 ## Demo
 
-Check out the live demo of the Calculator in action [here](https://your-demo-url.com).
+Check out the live demo of the Calculator in action [here](https://laxmanroy52.github.io/Calculator/).
 
 ## Usage
 
