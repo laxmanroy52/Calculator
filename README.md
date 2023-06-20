@@ -2,7 +2,7 @@
 
 The Calculator repository contains a simple and powerful calculator application built using HTML, CSS, and JavaScript. This calculator provides essential arithmetic operations, including addition, subtraction, multiplication, and division, allowing users to perform calculations quickly and efficiently. With a clean and intuitive interface, the Calculator makes mathematical tasks a breeze.
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](images/Screenshot_20230620-090137~2.png)
 
 ## Features
 
